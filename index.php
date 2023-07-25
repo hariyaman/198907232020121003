@@ -29,7 +29,8 @@
                             transport: {
                                 read: {
                                     url: "http://103.226.55.159/json/data_rekrutmen",
-                                    dataType: "jsonp"
+                                    dataType: "jsonp",
+                                    contentType: "application/json"
                                 }
                             },
                             schema: {
